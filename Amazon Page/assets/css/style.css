@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block; 
+    width: 100%;
+    text-align: center; 
+    background-color: #e9edee;
+}
+
+header figure {
+    background-color: #222f3f;
+    padding: 0.5em;
+    text-align: left;
+}
+
+figure img {
+    width: 10%;
+}
+
+header div {
+    background-color: #364759;
+    text-align: left;
+    padding: 0.5em;
+}
+
+header div p {
+    display: inline-block;
+}
+header div a {
+    color: white;
+    text-decoration: none;
+    padding: 0 1em 0;
+} 
+
+/* MAIN */
+main {
+    margin: 2em;
+}
+
+#firstButton {
+    background-color: #f46600;
+    padding: 1em;
+}
+
+main article div a {
+    color: white;
+    text-decoration: none;
+}
+
+#section_1 {
+    background-image: url(../images/bg-image.png);
+    margin: 1em 0 ;
+    padding: 6%;
+}
+
+#section_1 h1 {
+    font-weight: bold;
+    font-size: 200%;
+    color: white;
+    margin: 1em;
+}
+#section_1 p {
+    font-weight: bold;
+    font-size: 100%;
+    color: white;
+    margin: 1em;
+}
+
+#section_2 {
+    /* text-align: left; */
+    padding: 1em;
+    background-color: white; 
+}
+
+#sectionTitle {
+    /* padding: 0.5em; */
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+
+#section_2 h3 {
+    font-weight: bold;
+    margin: 1em 1em 0;
+    display: inline-block;
+}
+#section_2 a {
+    font-weight: bold;
+    color: #156c72;
+    text-decoration: none;
+}
+#section_2 p {
+    display: inline-block;
+}
+
+#section_2 img {
+    width: 23%;
+    height: 50vh;
+    margin: 1em; 
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+    min-height: 300px;
+    box-shadow: 10px 16px 8px 0px rgba(0,0,0,0.1);
+}
+
+#section_3 {
+    text-align: center;
+    margin: 3em 0 2em ; 
+}
+#section_3 img{
+    width: 100%;
+}
+#section_3 h3 {
+    font-weight: bold;
+    margin: 0 1em 0;
+    display: inline-block;
+}
+#section_3 a {
+    font-weight: bold;
+    color: #156c72;
+    text-decoration: none;
+}
+#section_3 p {
+    display: inline-block;
+}
+
+#section_4 {
+    text-align: center;
+    margin: 1em 0; 
+}
+#section_4 img{
+    width: 100%;
+}
+#section_4 h3 {
+    font-weight: bold;
+    margin: 0 1em 0;
+    display: inline-block;
+}
+#section_4 a {
+    font-weight: bold;
+    color: #156c72;
+    text-decoration: none;
+}
+#section_4 p {
+    display: inline-block
+}
+
+/* FOOTER */
+footer {
+    background-color: #222f3f;
+}
+
+#logoPiè {
+    padding: 3em;
+}
+
+footer img {
+    width: 10%;
+}
+
+#pièDiPagina {
+    background-color: #364759;
+    padding: 1em;
+}
+
+footer h3, a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: white
+}
