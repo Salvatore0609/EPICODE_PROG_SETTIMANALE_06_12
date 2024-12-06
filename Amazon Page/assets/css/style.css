@@ -13,7 +13,7 @@ header figure {
 }
 
 figure img {
-    width: 10%;
+    width: 8%;
 }
 
 header div {
@@ -48,6 +48,7 @@ main article div a {
 
 #section_1 {
     background-image: url(../images/bg-image.png);
+    background-size: 100%;
     margin: 1em 0 ;
     padding: 6%;
 }
