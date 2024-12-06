@@ -128,88 +128,61 @@ for (let i = 0; i < charactersArray.length; i++) {
   let positionNewArr = []
 
   switch (characters) {
-    case 'a': 
-    positionNewArr = 1;
+    case 'a': positionNewArr = 1;
     break;
-    case 'b': 
-    positionNewArr = 2;
+    case 'b': positionNewArr = 2;
     break;
-    case 'c': 
-    positionNewArr = 3;
+    case 'c': positionNewArr = 3;
     break;
-    case 'd': 
-    positionNewArr = 4;
+    case 'd': positionNewArr = 4;
     break;
-    case 'e': 
-    positionNewArr = 5;
+    case 'e': positionNewArr = 5;
     break;
-    case 'f': 
-    positionNewArr = 6;
+    case 'f': positionNewArr = 6;
     break;
-    case 'g': 
-    positionNewArr = 7;
+    case 'g': positionNewArr = 7;
     break;
-    case 'h': 
-    positionNewArr = 8;
+    case 'h': positionNewArr = 8;
     break;
-    case 'i': 
-    positionNewArr = 9;
+    case 'i': positionNewArr = 9;
     break;
-    case 'j': 
-    positionNewArr  = 10;
+    case 'j': positionNewArr = 10;
     break;
-    case 'k': 
-    positionNewArr = 11;
+    case 'k': positionNewArr = 11;
     break;
-    case 'l': 
-    positionNewArr = 12;
+    case 'l': positionNewArr = 12;
     break;
-    case 'm': 
-    positionNewArr = 13;
+    case 'm': positionNewArr = 13;
     break;
-    case 'n': 
-    positionNewArr = 14;
+    case 'n': positionNewArr = 14;
     break;
-    case 'o': 
-    positionNewArr = 15;
+    case 'o': positionNewArr = 15;
     break;
-    case 'p': 
-    positionNewArr = 16;
+    case 'p': positionNewArr = 16;
     break;
-    case 'q': 
-    positionNewArr = 17;
+    case 'q': positionNewArr = 17;
     break;
-    case 'r': 
-    positionNewArr = 18;
+    case 'r': positionNewArr = 18;
     break;
-    case 's': 
-    positionNewArr = 19;
+    case 's': positionNewArr = 19;
     break;
-    case 't': 
-    positionNewArr = 20;
+    case 't': positionNewArr = 20;
     break;
-    case 'u': 
-    positionNewArr = 21;
+    case 'u': positionNewArr = 21;
     break;
-    case 'v': 
-    positionNewArr = 22;
+    case 'v': positionNewArr = 22;
     break;
-    case 'w': 
-    positionNewArr = 23;
+    case 'w': positionNewArr = 23;
     break;
-    case 'x': 
-    positionNewArr = 24;
+    case 'x': positionNewArr = 24;
     break;
-    case 'y': 
-    positionNewArr = 25;
+    case 'y': positionNewArr = 25;
     break;
-    case 'z': 
-    positionNewArr = 26;
+    case 'z': positionNewArr = 26;
     break;
     default: positionNewArr = "Carattere non valido"; 
     break;
   }
-
   console.log("Il carattere " + characters + " è alla posizione " + positionNewArr + " nell'alfabeto");
 }
 
